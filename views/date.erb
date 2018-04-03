@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1> Today  </h1>
+        <h2></h2>
+        <p> <% day = Time.new.strftime("%A")
+        month = Time.new.strftime("%B")
+        dayinmonth = Time.new.strftime("%d")
+        year = Time.new.strftime("%Y") %>
+        <%= "The date is #{day}, #{month} #{dayinmonth}, #{year}" %></p>
+    </body>
+</html>
+
+<!-- to look something like this The date is Wednesday, November 18, 2015. -->
